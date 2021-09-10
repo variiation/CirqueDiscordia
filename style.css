@@ -1,0 +1,95 @@
+#navbar {
+    background-color: rgba(220, 20, 60, 0.582);
+    margin:0px;
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+}
+
+h1{
+    text-align: center;
+    color:rgb(126, 0, 0);
+    font-size: 60px;
+    text-shadow: 5px 5px 7px black;
+    font-family: 'Lobster', cursive;
+}
+
+button:hover{
+    background-color: white;
+    border-radius: 12px;
+    border-color: crimson;
+    color:ghostwhite;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+
+body {
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover; 
+    background-position:center;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+      
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.content {
+    width:45%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.content2 {
+    font-family: 'Hina Mincho', serif;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    height: 1200px;
+}
+
+b{
+    font-family: 'Amatic SC', cursive;
+}
+
+i{
+    font-family: 'Windsong', cursive;
+    font-style: normal;
+    font-weight: bold;
+}
+
+em{
+    font-family: 'Shadows Into Light', cursive;
+    font-style: normal;
+}
+
+p{
+    background-image: url(parchment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+
+}
